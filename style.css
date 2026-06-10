@@ -1,0 +1,73 @@
+/* 기본 배경 설정 */
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: 'Pretendard', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+/* 글래스모피즘 카드 스타일 */
+section {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.dashboard-header h1 {
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+/* 타이머 디자인 */
+.timer-display {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: #38bdf8;
+}
+
+/* 버튼 공통 스타일 */
+button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-start { background-color: #22c55e; color: white; }
+.btn-stop { background-color: #ef4444; color: white; }
+.btn-add { background-color: #6366f1; color: white; }
+
+/* 호버 효과 */
+button:hover {
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+/* 입력창 스타일 */
+input {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    width: 70%;
+}
+
+.todo-input-group {
+    display: flex;
+    gap: 10px;
+}

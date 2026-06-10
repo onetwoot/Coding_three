@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Pomodoro Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="dashboard-header">
+        <h1>나의 집중 대시보드</h1>
+    </header>
+
+    <main>
+        <section class="pomodoro-timer">
+            <h2>포모도로 타이머</h2>
+            <div class="timer-display">25:00</div>
+            <div class="timer-controls">
+                <button type="button" class="btn-start">시작</button>
+                <button type="button" class="btn-stop">정지</button>
+            </div>
+        </section>
+
+        <section class="todo-list-container">
+            <h2>오늘의 할 일</h2>
+            <div class="todo-input-group">
+    <input type="text" id="todo-input" placeholder="할 일을 입력하세요">
+    <button type="button" id="btn-add" class="btn-add">등록</button>
+         </div>
+        <ul id="todo-list" class="todo-list"></ul>
+        </section>
+    </main>
+
+</body>
+</html>
